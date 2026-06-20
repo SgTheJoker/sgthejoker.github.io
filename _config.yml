@@ -2,6 +2,13 @@ title: El Cancer En Persona
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
 url: https://https://sgthejoker.github.io/
 
 aux_links:
